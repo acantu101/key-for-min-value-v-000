@@ -5,8 +5,9 @@ def key_for_min_value(name_hash)
 i = 0
 name_hash.map do |item, value|
   if value < value[i]
+    item = 
   i +=1
-elsif name_hash < 0
+elsif name_hash = { "" }
   item = "nil"
 end
 item
