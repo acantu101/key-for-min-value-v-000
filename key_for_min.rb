@@ -7,7 +7,7 @@ name_hash.map do |item, value|
   if value < value[i]
     item =
   i +=1
-elsif name_hash = { "" }
+elsif name_hash = {""}
   item = "nil"
 end
 item
