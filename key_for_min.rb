@@ -6,7 +6,7 @@ i = 0
 min_value = ""
 name_hash.map do |item, value|
   if value < value[i]
-    min_value = value
+    min_value = item
   i +=1
 end
 min_value
