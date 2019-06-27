@@ -7,7 +7,7 @@ if name_hash.size = 0
 end
 
 name_hash.map do |item, value|
-  if 
+  if
 end
 item
 end
@@ -24,7 +24,7 @@ end
       # if we have no 2nd lowest or we found an element between lowest and 2nd
       # lowest, update our 2nd lowest
       second_lowest = n
-    end       
+    end
   end
 
   return lowest, second_lowest
