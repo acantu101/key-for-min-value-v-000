@@ -3,12 +3,10 @@
 
 def key_for_min_value(name_hash)
 i = 0
-min_value = ""
 name_hash.map do |item, value|
   if value < value[i]
-    min_value = item
   i +=1
 end
-min_value
+item
 end
 end
