@@ -6,6 +6,8 @@ i = 0
 name_hash.map do |item, value|
   if value < value[i]
   i +=1
+elsif name_hash < 0
+  item = nil
 end
 item
 end
