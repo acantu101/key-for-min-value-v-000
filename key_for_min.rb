@@ -9,4 +9,5 @@ name_hash.map do |item, value|
     min_value = value
   i +=1
 end
+min_value
 end
