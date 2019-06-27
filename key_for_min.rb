@@ -11,4 +11,3 @@ min_value = value
     i +=1
     return value
   end
-end
